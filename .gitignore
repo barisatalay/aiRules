@@ -1,0 +1,132 @@
+# ===============================
+# TypeScript/Node.js General Rules
+# (Comments are in English)
+# ===============================
+
+# Packages
+node_modules/
+jspm_packages/
+bower_components/
+
+# Build/Output directories
+# (TS, bundler and framework outputs)
+dist/
+build/
+out/
+lib/
+lib-cov/
+
+# Native addon build outputs
+build/Release/
+
+# Temporary files/directories
+tmp/
+temp/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test outputs and coverage reports
+coverage/
+.nyc_output/
+reports/
+# Cypress/Playwright etc.
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+playwright-report/
+test-results/
+allure-results/
+allure-report/
+
+# Bundler/Tool caches
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.cache/
+.rpt2_cache/
+.turbo/
+.vite/
+vite.cache/
+.prettier-cache/
+.jest/
+
+# Framework-specific outputs
+.next/
+.nuxt/
+.svelte-kit/
+storybook-static/
+dist-ssr/
+# Gatsby mostly produces .cache and public (public may differ per project)
+.cache/
+# public/
+
+# Serverless/platform directories
+.serverless/
+.vercel/
+.netlify/
+.firebase/
+.cdk.out/
+
+# Yarn Plug'n'Play
+.pnp.*
+# Note: With Yarn Berry the `.yarn/` directory is usually committed.
+# Avoid broad ignores like below; tune per project needs.
+# .yarn/*
+
+# Environment variables
+# (Sample files are tracked; real secrets should not be committed)
+.env
+.env.*
+!.env.example
+!.env*.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/Editor
+# VS Code: ignore folder but allow common settings files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode-test/
+.idea/
+.fleet/
+.history/
+
+# OS/general junk files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Icon\r
+
+# Swap/Temp files
+*.swp
+*.swo
+*~
+
+# PID files
+pids/
+*.pid
+*.seed
+
+# Packaging artifacts
+*.tgz
+
+# Local tooling/work files
+.wireit/
+.nx/cache/
