@@ -1,0 +1,8 @@
+dist/
+node_modules/
+coverage/
+*.min.js
+.gitignore
+.prettierignore
+LICENSE
+package-lock.json
