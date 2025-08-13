@@ -10,11 +10,36 @@
     "type": "git",
     "url": "git+https://github.com/barisatalay/aiRules.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "ai",
+    "rules",
+    "ai-rules",
+    "cursor",
+    "firebender",
+    "claude",
+    "copilot",
+    "developer-tools",
+    "codex",
+    "config"
+  ],
+  "author": "Barış Atalay",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/barisatalay/aiRules/issues"
   },
-  "homepage": "https://github.com/barisatalay/aiRules#readme"
+  "homepage": "https://github.com/barisatalay/aiRules#readme",
+  "files": [
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "eslint": "^9.33.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
 }
